@@ -82,7 +82,7 @@ const preguntas = [
     correcta: 3
   },
   {
-    pregunta: "9. ¿Cuál de las siguientes opciones describe correctamente la función principal del servicio AWS IAM (Identity and Access Management)?",
+    pregunta: "9. ¿Cuál de las siguientes opciones describe correctamente la función principal del servicio AWS IAM?",
     respuestas: [
       "Gestionar automáticamente la creación de redes virtuales privadas (VPC) a nivel global.",
       "Gestionar de forma segura las identidades, usuarios, grupos, roles y permisos de acceso a los recursos de AWS.",
@@ -92,7 +92,7 @@ const preguntas = [
     correcta: 1
   },
   {
-    pregunta: "10. ¿Cuál es la principal diferencia entre un Usuario/Grupo y un Rol en IAM?",
+    pregunta: "10. ¿Cuál es la principal diferencia entre un Usuario y un Rol en IAM?",
     respuestas: [
       "Los usuarios tienen coste económico y los roles son gratuitos.",
       "Los usuarios se asocian a personas y los roles se asignan a servicios o aplicaciones.",
@@ -369,7 +369,7 @@ const preguntas = [
   pregunta: "37. ¿Qué es una Network ACL (Network Access Control List) en una VPC de AWS?",
   respuestas: [
     "Un cortafuegos virtual asociado directamente a la interfaz de red de una instancia EC2 concreta.",
-    "Una lista de reglas que controla el tráfico que entra y sale de una subred (subnet) de la VPC.",
+    "Una lista de reglas que controla el tráfico que entra y sale de una subred de la VPC.",
     "Un servicio global de IAM utilizado exclusivamente para gestionar contraseñas y usuarios de la consola.",
     "Un volumen de almacenamiento en bloques persistente asociado a las instancias para guardar datos."
   ],
@@ -379,9 +379,9 @@ const preguntas = [
   pregunta: "38. ¿Cuál es una de las diferencias principales en cuanto a los tipos de reglas permitidas entre un Security Group y una Network ACL (NACL)?",
   respuestas: [
     "Los Security Groups permiten reglas de tipo ALLOW y DENY, mientras que las NACLs solo permiten ALLOW.",
-    "Los Security Groups solo permiten reglas de autorización (ALLOW), mientras que las NACLs permiten tanto reglas de tipo ALLOW como de tipo DENY.",
+    "Los Security Groups solo permiten reglas de tipo ALLOW, mientras que las NACLs permiten tanto reglas de tipo ALLOW como de tipo DENY.",
     "Las NACLs no tienen reglas de entrada ni de salida y solo dependen de los permisos de IAM.",
-    "No existen diferencias; ambos sistemas utilizan obligatoriamente reglas de denegación explícita (DENY)."
+    "No existen diferencias; ambos sistemas utilizan obligatoriamente reglas de tipo DENY."
   ],
   correcta: 1
 },
